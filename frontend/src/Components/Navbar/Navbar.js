@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import jeevan from '../../image/jeevan.png'
 
 const Navbar = () => {
     return (
@@ -8,7 +9,7 @@ const Navbar = () => {
                 <div class="container-xl">
 
                     <a class="navbar-brand" href="/">
-                        <img src="https://preview.webpixels.io/web/img/logos/clever-primary.svg" class="h-8" alt="logo" />
+                        <img src={jeevan} class="h-8" alt="logo" />
                     </a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">

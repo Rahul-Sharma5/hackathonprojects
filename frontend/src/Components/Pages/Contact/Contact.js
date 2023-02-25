@@ -1,10 +1,12 @@
 import React from 'react'
+import Navbar from '../../Navbar/Navbar'
 import './Contact.css'
 
 const Contact = () => {
     return (
         <>
-            <div className='container py-6'>
+        <Navbar/>
+            <div className='container py-2'>
                 <section id="contact" class="contact section-bg">
                     <div class="container">
 

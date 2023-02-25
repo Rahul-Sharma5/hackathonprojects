@@ -18,7 +18,25 @@ const Signup = () => {
 
                                     </div>
                                     <form class="mb-3">
+
                                         <div class="row mb-5">
+
+                                            <div class="py-3">
+
+                                                <label class="form-label" for="country">Pension Type</label><br />
+                                                <div class="form-check form-check-inline ">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" required id="inlineRadio1" /* value="Family pension" onChange={(e) => setPensionType(e.target.value)} */ />
+                                                    <label class="form-check-label" for="inlineRadio1">Family pension</label>
+                                                </div>
+
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Pension for self" /* onChange={(e) => setPensionType(e.target.value)} */ />
+                                                    <label class="form-check-label" for="inlineRadio2">Pension for self</label>
+                                                </div>
+
+                                            </div>
+
+
                                             <div class="col-md-6">
                                                 <div class="">
                                                     <label class="form-label" for="full_name">Full name</label>

@@ -1,20 +1,22 @@
 import React from 'react'
+import Navbar from '../../Navbar/Navbar'
 import './Profile.css'
 
 const Profile = () => {
     return (
         <>
+        <Navbar/>
             <div className='container'>
 
                 <div class="d-flex flex-column flex-lg-row h-lg-full bg-surface-secondary">
 
                     <div class="h-screen flex-grow-1">
-                        <main class="py-6 bg-surface-secondary">
+                        <main class="py-3 bg-surface-secondary">
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-xl-7 mx-auto">
                                         {/* <!-- Profile picture --> */}
-                                        <div class="card shadow-2 border-0 mt-4 mb-10">
+                                        <div style={{'background': "linear-gradient( 174.2deg,  rgba(365,244,228,1) 7.1%, rgba(440,246,238,1) 67.4% )", position: 'relative', backgroundColor: 'a9c9ff' }} class="card shadow border-0 mt-4 mb-10">
                                             <div class="card-body">
                                                 <div class="d-flex align-items-center">
                                                     <div>
@@ -24,7 +26,7 @@ const Profile = () => {
                                                             </a>
                                                             <div class="ms-4">
                                                                 <span class="h4 d-block mb-0">Rahul Sharma</span>
-                                                                <a href="#" class="text-sm font-semibold text-muted">View Profile</a>
+                                                                <a href="#" class="text-sm font-semibold text-muted">Pension Type :- </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -49,10 +51,10 @@ const Profile = () => {
                                                         <input type="email" class="form-control" id="email" />
                                                     </div>
                                                 </div>
-                                                
+
                                             </div>
                                             <div class="row g-5">
-                                            <div class="col-md-6">
+                                                <div class="col-md-6">
                                                     <div class="">
                                                         <label class="form-label" for="account_number">Account Number</label>
                                                         <input type="text" class="form-control" id="account_number" />
@@ -94,13 +96,13 @@ const Profile = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                        
+
                                             <div class="text-end mt-5">
                                                 <button type="button" class="btn btn-sm btn-neutral me-2">Cancel</button>
                                                 <button type="submit" class="btn btn-sm btn-primary">Save</button>
                                             </div>
                                         </form>
-                                        
+
                                         {/*   <!-- Individual switch cards --> */}
                                         <div class="row g-6">
                                             <div class="col-md-12">
